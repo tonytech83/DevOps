@@ -1,37 +1,9 @@
-<style>
-    .blue {
-        background-color: #0074D9;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 10px;
-    }
-
-    .h1 {
-      font-size: 24px;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    .h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-    }
-    .normal {
-       font-size: 14px;
-       text-align: center;
-    }  
-
-</style>
-
-<p style="font-size: 24px; font-weight: bold; text-align: center;">Git Branching and Pull Requests</p>
-
-<p class="h2">Branches in Source Control Systems</p>
+<h1 align="center">Git Branching and Pull Requests</h1>
+<h2 align="center">Branches in Source Control Systems</h2>
 
 <br>
 
-<p style="background-color: #0074D9; font-size: 18px; font-weight: bold; padding: 10px;">Table of Contents</p>
-
+<h3 background-color="#0074D9" > Table of Contents</h3>
 
 <ol>
 <li><a href="#1">Source Control System</a></li>
@@ -49,8 +21,8 @@
 
 <br>
 
-<p class="h2" id="1">Source Control System</p>
-<p class="normal">Version control system</p>
+### <center>Source Control System</center>
+#### Version control system
 
 <p class="blue">Software Configuration Management (SCM)</p>
 
