@@ -13,10 +13,10 @@
 <li><a href="#5">Git Conflicts</a></li>
 <li><a href="#6">Branching Concepts and Branching in Git</a></li>
 <li><a href="#7">Git Branching Commands</a></li>
-<li>Branching Strategies</li>
-<li>Common Git Branching Strategies</li>
-<li>Pull Requests in GitHub</li>
-<li>The Pull Request Process</li>
+<li><a href="#8">Branching Strategies</a></li>
+<li><a href="#9">Common Git Branching Strategies</a></li>
+<li><a href="#10">Pull Requests in GitHub</a></li>
+<li><a href="#11">The Pull Request Process</a></li>
 </ol>
 
 <br>
@@ -128,6 +128,10 @@ git add [filename] ("git add ." adds everything)
 ```shell
 git commit –m "[your message here]"
 ```
+- Log - check log of current repository
+```shell
+git log
+```
 - Check the status of your local repository (see the local changes)
 ```shell
 git status
@@ -181,7 +185,7 @@ git push [remote name] [local name]
 
 <br>
 
-<h2 align="center" id="6">Git Branching Commands</h2>
+<h2 align="center" id="7">Git Branching Commands</h2>
 <h3 align="center">View / Switch / Delete Branches</h3>
 
 <h3>Local vs. Remote Branches</h3>
@@ -266,9 +270,146 @@ git cherry-pick {branch-name}
   - *git merge*
 - Rewrites history and must be used with caution!
 
+<br>
+
+<h2 align="center" id="8">Branching Strategies</h2>
+<h3 align="center">Strategy Simple Branch</h3>
+
+<h3>What is a Branching Strategy?</h3>
+
+- Branching strategy
+  - A strategy that programmers adopt while writing, merging and deploying code when using a VCS
+- It is essentially a set of rules that developers can follow to stimulate how they interact with a shared codebase
+- It enables teams to work in parallel to achieve faster releases and fewer conflicts
+  - By creating a clear process when making changes to source control
+
+<h3>Purposes of Branching Strategy</h3>
+
+- Enhance productivity by ensuring proper coordination among developers
+- Help organize a series of planned, structured releases
+- Map a clear path when making changes to software through to production
+- Maintain a bug-free code
+- Enable parallel development
+
+<br>
+
+<h2 align="center" id="9">Common Git Branching Strategies</h2>
+
+<h3>Trunk-Based Development</h3>
+
+- Trunk-based development
+  - "No branches" strategy
+  - Developers integrate their changes into a shared trunk at least once a day
+- Make smaller changes more frequently and commit directly into the trunk (without the use of branches)
+  - This shared trunk should be ready for release anytime
+- This strategy is suited to more senior developers
+
+<h3>GitHub Flow</h3>
+
+- GitHub Flow
+  - Lightweight and flexible development workflow
+  - Each feature is implemented in its own branch
+  - Keep the master code in a constant deployable state
+- Before merging, each branch comes through a Pull Request and code review, then the changes are tested and integrated
+
+<h3>Git Flow</h3>
+
+- GitFlow
+  - Enables parallel development
+  - Devs can work separately from the master branch on features
+- This strategy contains separate and straightforward branches for specific purposes
+  - Ideal to handle multiple versions of the product
+
+<h3>GitFlow Branches</h3>
+
+- Master (main)
+  - Holds the active production code
+- Release
+  - Help prepare a new production release
+- Hotfix
+  - Hotfix branches arise from a bug that has been discovered and must be resolved
+- Develop
+- Feature
+  - Develop new features
+
+<h3>GitLab Flow</h3>
+
+- GitLab Flow
+  - Combines feature-driven development and feature branching with issue tracking
+  - Each feature is implemented in its own branch
+  - Developers work with the main branch right away
+  - The main branch is deployed to production (manually or auto)
+
+<h3>Best Branching Strategy for Your Team</h3>
+
+|Product type and its release method|Team size|Collaboration maturity|Applicable mainstream branch mode|
+|-|-|-|-|
+|All|Small team|High|Trunk-based Dev|
+|Products that support continuous deployment and release|Middle|Moderate|GitHub-Flow and Trunk-based Dev|
+|Products with a definite release window and a periodic version release cadence|Middle|Moderate|Git-Flow and GitLab-Flow with release branch|
+|Basic platform products|Middle|Moderate|GitLab-Flow|
+|Products demanding product quality and have a long maintenance cycle for released versions|Large|Moderate|Git-Flow|
+
+<h3>No Standard for "Branching Strategy"</h3>
+
+- Different organizations use different branching
+strategies for each different team / project
+  - There is no "best branching strategy"
+  - How to use branches highly depends on
+    - The team
+    - The project under development
 
 
+<br>
 
+<h2 align="center" id="10">Pull Requests in GitHub</h2>
+<h3 align="center">Show Changes You’ve Pushed</h3>
 
+<h3>Pull Requests in GitHub</h3>
 
+- Pull requests
+  - A mechanism for developers to notify their team members that they have completed a feature
+- The pull request is more than just a notification—it's a code review process, including discussions on the proposed feature
+- If there are any problems with the changes, teammates can post feedback in the pull request
+- This activity is tracked directly inside of the pull request
 
+<h3>Pull Requests</h3>
+
+- Pull requests let you tell others about changes you want to push to a branch in a repository on GitHub
+- Once a pull request is opened, you can discuss and review the potential changes with collaborators
+- You can create pull requests on GitHub.com, in GitHub Desktop or in other GitHub tools
+
+<h3>Branch Protection Rules</h3>
+
+- You can create a branch protection rule in a repo
+  -Can be created for
+    -A specific branch
+    -All branches
+    -Any branch that matches a name pattern you specify with fnmatch syntax
+- For example, you can create a branch protection rule to prevent contributors from merging to a branch without an approved pull request
+
+<br>
+
+<h2 align="center" id="11">The Pull Request Process</h2>
+<h3 align="center">Notify Team for a Completed Feature</h3>
+
+<h3>Pull Request: The Process</h3>
+
+- Create a feature branch
+- Make and commit changes
+- Open a pull request
+- Resolve merge conflicts
+- Request a review
+  - Give feedback / comment
+  - Approve and merge
+
+<br>
+
+<h2 align="center" id="11">Summary</h2>
+
+- Git == distributed source control system
+- GitHub == platform and cloud-based service, based on Git
+- Branch == a new separate version of the main repository
+- Build your branching strategy from several main concepts
+- Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub
+- Conflicts may appear when merging branches
