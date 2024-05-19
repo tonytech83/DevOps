@@ -1,6 +1,14 @@
 $(document).ready(function() {
-	$('#btnDelete').click(deleteTown)
+	$('#btnDelete').click(deleteTown);
+	$('#btnAdd').click(addTown);
 });
+
+function addTown() {
+	let townName = $('#townNameForAdd').val();
+	$('#townNameForAdd').val('');
+	$('#towns').append($('<option>').text(townName));
+	$('#result').text(townName + " added.");
+}
 
 function deleteTown() {
 	let townName = $('#townName').val();
