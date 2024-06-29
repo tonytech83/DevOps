@@ -12,8 +12,8 @@ The main goal of the module will be to present the basic concepts of DevOps in a
 
 ## Language
 
-- `Python`
-
+- `YAML`
+- `JavaScript`
 
 ## Judge System
 
@@ -27,7 +27,11 @@ The main goal of the module will be to present the basic concepts of DevOps in a
 The main goal of the 'Software Engineering and DevOps' course is to introduce the key terms and methodologies for a comprehensive understanding of software engineering and DevOps. During the course, methods and tools for teamwork, creating, combining, and using code from more than one person simultaneously will be explored. Tools for creating and managing infrastructure through code and managing a complete system for automated provisioning of code and its presentation in a finished form to users will also be presented.
 </h5>
 
-- 
+- [`Version Control with Git`](https://github.com/tonytech83/DevOps/tree/main/01_Software_Engineering_and_DevOps/01_Version_Control_with_Git)
+- [`Automated Testing`](https://github.com/tonytech83/DevOps/tree/main/01_Software_Engineering_and_DevOps/02_Automated_Testing)
+- [`Continuous Integration and Continuous Delivery (CI/CD) with GitHub Actions`](https://github.com/tonytech83/StudentsRegistry-CI-CD)
+- [`Continuous Integration and Continuous Delivery (CI/CD) with Jenkins`](https://github.com/tonytech83/StudentRegistry-Jenkinsfile)
+- [`Software Development Methodologies`](https://github.com/tonytech83/Scary-Stories-Project)
 
 ### 2. Containers and Cloud
 
