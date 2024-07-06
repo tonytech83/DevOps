@@ -1,0 +1,38 @@
+---
+services:
+  mysql:
+    image: mysql
+    container_name: wordpress_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_DATABASE=wordpressdb
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    expose:
+      - 3306
+      - 33060
+    networks:
+      - my_network
+    volumes:
+      - 'data:/var/lib/mysql'
+
+  wordpress:
+    image: wordpress
+    container_name: wordpress-website
+    environment:
+      - WORDPRESS_DB_HOST=wordpress_db
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_NAME=wordpressdb
+    volumes:
+      - 'wp-data:/var/www/html'
+    ports:
+      - '80:80'
+    networks:
+      - my_network
+
+networks:
+  my_network:
+volumes:
+  data:
+  wp-data:
