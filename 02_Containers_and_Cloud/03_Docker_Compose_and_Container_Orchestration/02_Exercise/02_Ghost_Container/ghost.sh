@@ -1,0 +1,1 @@
+docker run -d -p 3001:2368 --name ghost-container -e NODE_ENV=development ghost:latest
