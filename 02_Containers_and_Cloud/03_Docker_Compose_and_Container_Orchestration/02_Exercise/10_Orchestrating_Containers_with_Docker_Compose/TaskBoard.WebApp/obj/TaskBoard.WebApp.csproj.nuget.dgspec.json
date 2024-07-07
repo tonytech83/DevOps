@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj": {}
+    "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj": {
+    "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
+        "projectUniqueName": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
         "projectName": "TaskBoard.Data",
-        "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
+        "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
         "packagesPath": "C:\\Users\\TonyTech\\.nuget\\packages\\",
-        "outputPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\obj\\",
+        "outputPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TonyTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj": {
+    "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj",
+        "projectUniqueName": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj",
         "projectName": "TaskBoard.WebApp",
-        "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj",
+        "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\TaskBoard.WebApp.csproj",
         "packagesPath": "C:\\Users\\TonyTech\\.nuget\\packages\\",
-        "outputPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.WebApp\\obj\\",
+        "outputPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TonyTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj": {
-                "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj"
+              "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj": {
+                "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj"
               }
             }
           }
@@ -166,6 +166,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.11, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

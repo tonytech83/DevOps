@@ -2834,11 +2834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
+      "projectUniqueName": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
       "projectName": "TaskBoard.Data",
-      "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
+      "projectPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
       "packagesPath": "C:\\Users\\TonyTech\\.nuget\\packages\\",
-      "outputPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\obj\\",
+      "outputPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TonyTech\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC759849-6C9C-4CF7-94B0-40C679137CCC}|TaskBoard.WebApp\\TaskBoard.WebApp.csproj|c:\\pythonprojects\\devops\\02_containers_and_cloud\\03_docker_compose_and_container_orchestration\\02_exercise\\10_orchestrating_containers_with_docker_compose\\taskboard.webapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC759849-6C9C-4CF7-94B0-40C679137CCC}|TaskBoard.WebApp\\TaskBoard.WebApp.csproj|solutionrelative:taskboard.webapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\Dockerfile",
+              "RelativeDocumentMoniker": "TaskBoard.WebApp\\Dockerfile",
+              "ToolTip": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.WebApp\\Dockerfile",
+              "RelativeToolTip": "TaskBoard.WebApp\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-07T15:37:03.807Z",
+              "EditorCaption": ""
             }
           ]
         }

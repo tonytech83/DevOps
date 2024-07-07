@@ -1,0 +1,30 @@
+---
+services:
+
+  sqlserver:
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=yourStrong(!)Password
+    volumes:
+      - sqldata:/var/opt/mssql
+    networks:
+      - taskboard_network
+
+  web_app:
+    container_name: web_app
+    build:
+      dockerfile: ./TaskBoard.WebApp/Dockerfile
+    ports:
+      - "5000:80"
+    restart: on-failure
+    networks:
+      - taskboard_network
+
+volumes:
+  sqldata:
+networks:
+  taskboard_network:

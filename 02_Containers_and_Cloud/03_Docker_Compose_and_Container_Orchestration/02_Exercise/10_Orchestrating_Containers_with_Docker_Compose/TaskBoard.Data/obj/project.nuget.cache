@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zLF2Lgqogw0=",
+  "dgSpecHash": "hfEG+TdDu5I=",
   "success": true,
-  "projectFilePath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_TaskBoard_App_Orchestrating_Containers with Docker Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
+  "projectFilePath": "C:\\pythonProjects\\DevOps\\02_Containers_and_Cloud\\03_Docker_Compose_and_Container_Orchestration\\02_Exercise\\10_Orchestrating_Containers_with_Docker_Compose\\TaskBoard.Data\\TaskBoard.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TonyTech\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\TonyTech\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
