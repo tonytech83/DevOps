@@ -14,6 +14,7 @@ The main goal of the module will be to present the basic concepts of DevOps in a
 
 - `YAML`
 - `JavaScript`
+- `HCL`
 
 ## Judge System
 
