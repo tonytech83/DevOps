@@ -18,7 +18,7 @@ az login
 az group create --name trackerapprg --location westeurope
 
 # Create an Azure container registry 
-az acr create --resource-groupe trackerapprg --name trackerappcrap --sku Basic
+az acr create --resource-group trackerapprg --name trackerappcrap --sku Basic
 
 # Log in to the container registry
 az acr login --name trackerappcrap
