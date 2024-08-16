@@ -1,0 +1,45 @@
+---
+services:
+
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    restart: always
+    env_file:
+      - ./env/mongodb.env
+    volumes:
+      - data:/data/db
+    networks:
+      - goals_network
+
+  backend:
+    container_name: backend
+    # image: tonytech/goals-backend
+    build: /backend
+    volumes:
+      - logs:/logs
+      - /backend/node_modules
+    ports:
+      - 80:80
+    env_file:
+      - ./env/backend.env
+    networks:
+      - goals_network
+
+  frontend:
+    container_name: frontend
+    build: /frontend
+    # image: tonytech/goals-frontend
+    volumes:
+      - ./frontend/src:/backend/src
+    ports:
+      - 3000:3000
+    networks:
+      - goals_network
+
+volumes:
+  data:
+  logs:
+
+networks:
+  goals_network:
