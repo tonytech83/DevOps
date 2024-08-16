@@ -1,0 +1,11 @@
+# Declare valiables
+resource_group_name       = "SoftUniBazarRG"
+resource_group_location   = "northeurope"
+app_service_plan_name     = "bazar-plan"
+sql_server_name           = "bazar-sqlserver"
+sql_server_admin_username = "saadminuser"
+sql_server_admin_password = "myStrongPassword12#"
+sql_database_name         = "Contacts"
+firewall_rule_name        = "bazar-firewall"
+app_service_name          = "softuni-bazar-web-app"
+repo_URL                  = "https://github.com/tonytech83/exam-task-2"
